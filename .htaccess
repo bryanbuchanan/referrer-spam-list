@@ -1,4 +1,5 @@
 # BLOCK REFERRER SPAM
+SetEnvIfNoCase Referer 100dollars-seo.com spammer=yes
 SetEnvIfNoCase Referer 4webmasters.org spammer=yes
 SetEnvIfNoCase Referer 7makemoneyonline.com spammer=yes
 SetEnvIfNoCase Referer best-seo-offer.com spammer=yes
