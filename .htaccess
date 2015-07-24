@@ -7,6 +7,8 @@ SetEnvIfNoCase Referer best-seo-solution.com spammer=yes
 SetEnvIfNoCase Referer buttons-for-website.com spammer=yes
 SetEnvIfNoCase Referer buy-cheap-online.info spammer=yes
 SetEnvIfNoCase Referer darodar.com spammer=yes
+SetEnvIfNoCase Referer e-buyeasy.com spammer=yes
+SetEnvIfNoCase Referer erot.co spammer=yes
 SetEnvIfNoCase Referer event-tracking.com spammer=yes
 SetEnvIfNoCase Referer floating-share-buttons.com spammer=yes
 SetEnvIfNoCase Referer free-share-buttons.com spammer=yes
@@ -17,6 +19,8 @@ SetEnvIfNoCase Referer semaltmedia.com spammer=yes
 SetEnvIfNoCase Referer seoanalyses.com spammer=yes
 SetEnvIfNoCase Referer st3.cwl.yahoo.com spammer=yes
 SetEnvIfNoCase Referer success-seo.com spammer=yes
+SetEnvIfNoCase Referer trafficmonetizer.org.com spammer=yes
+SetEnvIfNoCase Referer webmonetizer.net spammer=yes
 Order allow,deny
 Allow from all
 Deny from env=spammer
